@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28004d</color>
+    <color name="colorPrimaryDark">#28004d</color>
+    <color name="colorAccent">#FAD689</color>
+    <color name="menuiconcolor">#ffcc33</color>
+    <color name="menutextcolor">#ffffff</color>
+    <color name="Textcolor">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#e0000000</color>
+    <color name="Edittextcolor">#eaeaea</color>
+    <color name="spinnercolor">#FFCC33</color>
+    <color name="yellow">#fad689</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="blue">#0e2252</color>
+    <color name="green">#003300</color>
+    <color name="red">#F96262</color>
+    <color name="purple">#592c63</color>
+    <color name="blue2">#161433</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentwhite">#33ffffff</color>
+</resources>

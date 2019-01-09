@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context=".ValidateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="請上傳身分證正反面以及個人名片\n以做實名認證\n需等待3個工作天　謝謝"
+            android:textColor="@color/menuiconcolor" />
+
+        <ImageView
+            android:id="@+id/iv_indentity_front"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/botton_white" />
+
+        <Button
+            android:id="@+id/bt_indentity_front"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_3"
+            android:text="身分證正面" />
+
+        <ImageView
+            android:id="@+id/iv_indentity_back"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/botton_white" />
+
+        <Button
+            android:id="@+id/bt_indentity_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_3"
+            android:text="身分證反面" />
+
+        <ImageView
+            android:id="@+id/iv_businesscard"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/botton_white" />
+
+        <Button
+            android:id="@+id/bt_businesscard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_3"
+            android:text="名片" />
+
+        <Button
+            android:id="@+id/bt_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/botton_white"
+            android:text="上傳照片" />
+
+        <!--
+        <Button
+            android:id="@+id/bt_download"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下載" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_download"/>
+            -->
+
+
+    </LinearLayout>
+</ScrollView>

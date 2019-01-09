@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+
+
+        >
+
+        <item
+            android:id="@+id/Main"
+            android:icon="@drawable/ic_home"
+            android:title="首頁" />
+        <item
+            android:id="@+id/system"
+            android:icon="@drawable/ic_club"
+            android:title="商會介紹" />
+        <item
+            android:id="@+id/activity"
+            android:icon="@drawable/ic_activity_message"
+            android:title="活動報名" />
+        <item
+            android:id="@+id/Member_data"
+            android:icon="@drawable/ic_member_data"
+            android:title="會員資料" />
+        <item
+            android:id="@+id/card"
+            android:icon="@drawable/ic_card"
+            android:title="會員卡片" />
+        <item
+            android:id="@+id/call_we"
+            android:icon="@drawable/ic_contact"
+            android:title="連絡我們" />
+        <item
+            android:id="@+id/consultation"
+            android:icon="@drawable/ic_consultation"
+            android:title="諮詢服務" />
+        <item
+            android:id="@+id/login_logout"
+            android:title="登入/登出" />
+
+    </group>
+
+
+</menu>

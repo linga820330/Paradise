@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--path是 FileProvider抓取的路徑  這裡要和createImageFile()裡建立的路徑一致-->
+    <external-path name="hm_file" path="Pictures/camerademo" />
+</paths>
+
+<!--
+<external-files-path name="my_images" path="Android/data/com.example.user.paradiseapp/files/Pictures"/>
+-->

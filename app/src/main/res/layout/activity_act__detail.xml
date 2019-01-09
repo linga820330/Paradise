@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_long"
+    android:orientation="vertical"
+    tools:context=".ACT_DetailActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="活 動 名 稱"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新型態商會的誕生"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="活 動 內 容"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="秘境之商以新形態商會的誕生。本商會提供「人脈資源」，「信息渠道」、「資訊交流」、「宣傳窗口」核心價值提供給會員。"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="40dp"
+                android:text="活 動 地 址"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actAdress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="親家市政廣場\n台中市西屯區市政北七路186號3F"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="40dp"
+                android:text="活 動 時 間"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11 / 02　14 : 00 - 16 : 00\n11 / 03　14 : 00 - 16 : 00"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="參 加 條 件"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普  /  銀  /  金  /  黑"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="人 數 限 制"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 8  人"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:text="可攜伴人數"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actPartner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2人"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparentwhite"
+            android:orientation="vertical"
+            android:padding="1dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="報 名 日 期"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 / 20"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="截 止 日 期"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 / 25"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="繳 費 日 期"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actPaytime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 / 25 － 10 / 28"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:text="所 需 金 額"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/price" />
+
+            <TextView
+                android:id="@+id/tv_actPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">  200元"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="left|center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:text="所 需 紅 利"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/point" />
+
+            <TextView
+                android:id="@+id/tv_actPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">  50點"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:text="場 地 費 用"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_actSitecost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 5 0 元"
+                android:textColor="@color/yellow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparentwhite"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="活 動 圖 片"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_actPoster"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/activity_image_resized" />
+
+        <Button
+            android:id="@+id/bt_signup"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/button_3"
+            android:padding="5dp"
+            android:text="馬 上 報 名"
+            android:textColor="@color/yellow"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

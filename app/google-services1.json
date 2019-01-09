@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "170664889097",
+    "firebase_url": "https://paradiseapp-a0436.firebaseio.com",
+    "project_id": "paradiseapp-a0436",
+    "storage_bucket": "paradiseapp-a0436.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170664889097:android:86fd0b6c966b86b0",
+        "android_client_info": {
+          "package_name": "com.example.user.paradiseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170664889097-rokkeksf102h05r161m0jtnpg161d1qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.paradiseapp",
+            "certificate_hash": "f3263581cbda7b477d94b35392696fcb20e1207c"
+          }
+        },
+        {
+          "client_id": "170664889097-cm5cc6eqns0n12gqd8d8li7595ve2mu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwKjhVuUuRRgY6fhFcqZCRUxVFinMD8Vg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170664889097-pl89abikhr1vvoh9ocekbanfd0gojo65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

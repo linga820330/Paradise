@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--輪播圖的圖片ID 可以用來做圖片的點擊功能-->
+<resources>
+    <item name="pager_image1" type="id" />
+    <item name="pager_image2" type="id" />
+    <item name="pager_image3" type="id" />
+    <item name="pager_image4" type="id" />
+    <item name="pager_image5" type="id" />
+</resources>
